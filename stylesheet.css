@@ -10,15 +10,6 @@ body {
   min-height: 100vh;
 }
 
-nav {
-  display: flex;
-  width: 100%;
-  height: 10vh;
-  border: 2px solid red;
-  font-style: normal;
-  justify-content: space-between;
-}
-
 span {
   display: inline-block;
   width: 375px;
@@ -30,7 +21,6 @@ span {
 .app-bar {
   width: 375px;
   height: 92px;
-  border: 2px solid red;
   color: white;
 }
 
@@ -39,17 +29,6 @@ span {
   justify-content: space-between;
   width: 375px;
   height: 44px;
-  border: 2px solid yellow;
-}
-
-.lower-bar {
-  width: 375px;
-  height: 48px;
-  border: 2px solid green;
-}
-
-.time {
-  padding-left: 10px;
 }
 
 .upper-icons {
@@ -57,22 +36,23 @@ span {
   padding-right: 10px;
 }
 
+.time {
+  padding-left: 10px;
+}
+
 .ntew {
-  border: 1px solid yellow;
   width: 17px;
   height: 11.33px;
   background-image: url("image/network.png");
 }
 
 .wifi {
-  border: 1px solid yellow;
   width: 15.27px;
   height: 10.95px;
   background-image: url("image/wifi.png");
 }
 
 .battery {
-  border: 1px solid yellow;
   width: 23.33px;
   height: 11.33px;
   background-image: url("image/Battery.png");
