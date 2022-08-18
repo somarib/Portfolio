@@ -83,3 +83,22 @@ span {
 .menuimg {
   margin-right: 5px;
 }
+
+.myname {
+  margin: auto;
+  width: 327px;
+  height: 55px;
+  font-size: 30px;
+  color: #7d73fc;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.jobtitle {
+  margin: auto;
+  width: 327px;
+  height: 87px;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
