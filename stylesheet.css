@@ -57,3 +57,29 @@ span {
   height: 11.33px;
   background-image: url("image/Battery.png");
 }
+
+.lower-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 375px;
+  height: 48px;
+}
+
+.logoo {
+  width: 85px;
+  height: 30px;
+  padding-right: 15px;
+}
+
+.menu-icons {
+  width: 40px;
+  height: 35px;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  padding-right: 10px;
+}
+
+.menuimg {
+  margin-right: 5px;
+}
