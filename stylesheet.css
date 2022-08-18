@@ -102,3 +102,18 @@ span {
   color: white;
   text-align: center;
 }
+
+.abilities {
+  margin: auto;
+  width: 327px;
+  height: 170px;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+}
+
+.vector4 {
+  margin: auto;
+  width: 327px;
+}
+
