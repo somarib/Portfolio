@@ -10,7 +10,7 @@ body {
   min-height: 100vh;
 }
 
-span {
+.dspan {
   display: inline-block;
   width: 375px;
   height: 563px;
