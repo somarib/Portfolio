@@ -1,0 +1,32 @@
+body { 
+  background-color: #e5e5e5;
+  background-image: url("image/Topcircles.png");
+ }
+
+.maincont {
+  margin: auto;
+  background-color: #191765;
+  width: 375px;
+  min-height: 100vh;
+}
+
+nav {
+  display:flex;
+  width: 100%;
+  height: 10vh;
+  border: 2px solid red;
+  font-family: Robot;
+  font-style: normal;
+  justify-content: space-between;
+}
+
+span { 
+  display: inline-block;
+  width: 375px;
+  height: 563px;
+  
+  background-image: url("image/Topcircles.png");
+  background-size: 375px 563px;
+}
+
+
