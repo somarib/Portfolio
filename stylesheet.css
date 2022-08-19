@@ -1,6 +1,8 @@
+
 body {
   background-color: #e5e5e5;
   background-image: url("image/Topcircles.png");
+  font-family: 'Roboto', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,;
 }
 
 .maincont {
@@ -13,8 +15,9 @@ body {
 .bgimage {
   display: inline-block;
   width: 375px;
-  height: 563px;
+  min-height: 563px;
   background-image: url("image/Topcircles.png");
+  background-repeat: no-repeat;
   background-size: 375px 563px;
 }
 
@@ -126,5 +129,22 @@ body {
 .social {
   margin: auto;
   width: 200px;
+  height: 80px;
   padding-top: 20px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  width: 200px;
+  height: 20px;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 0;
+  padding-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
