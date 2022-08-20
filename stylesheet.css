@@ -148,3 +148,105 @@ a {
   text-decoration: none;
   color: white;
 }
+
+.workedOn {
+  display: grid;
+  grid-template-columns: auto;
+  width: 375px;
+  min-height: 2600px;
+  background-image: url("image/portfolio-background-shapes-mobile.png");
+  background-repeat: no-repeat;
+  background-size: 375px 2617.21px;
+}
+
+.uppergrid {
+  display: grid;
+  grid-template-columns: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.work-arrow {
+  display: flex;
+  justify-content: center;
+  width: 375px;
+  height: 100px;
+}
+
+.ul-work {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 65px;
+  height: 21.4px;
+  color: a2a3ae;
+}
+
+.ul-work a {
+  color: #a2a3ae;
+}
+
+.my-work {
+  width: 327px;
+  margin: auto;
+  font-size: 40px;
+  color: #9490ff;
+  padding-bottom: 20px;
+}
+
+.img-workDivider {
+  display: block;
+  width: 327px;
+  margin: auto;
+}
+
+.project-flex {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  padding-left: 23px;
+}
+
+.flex-item {
+  color: white;
+  align-items: center;
+}
+
+.holdtext {
+  color: #dcdce8;
+  font-size: 25px;
+}
+
+.navlang-flex {
+  display: flex;
+  width: 350px;
+}
+
+.subflex-item {
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.artag {
+  display: inline-block;
+  width: 80px;
+}
+
+.seeproject {
+  display: inline-block;
+  color: #edecff;
+  width: 89px;
+  height: 48px;
+  background-color: #7d73fc;
+  margin-top: 20px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.seep {
+  display: flex;
+  justify-content: left;
+  height: 48px;
+  padding-bottom: 50px;
+}

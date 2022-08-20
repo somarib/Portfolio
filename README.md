@@ -7,6 +7,7 @@ Portfolio Mobile Version
 
 This project is to set up repository locally and on the github. Set up Linters configuration the project.
 The project is in a number of sections wich inclusde the headers, the name and title, the introduction and my abilities sections. This is my Portfolio which shows what I have done.
+I have added the resent project section 
 
 
 ## Built With
