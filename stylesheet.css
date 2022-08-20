@@ -148,3 +148,19 @@ a {
   text-decoration: none;
   color: white;
 }
+
+.workedOn {
+  display: inline-block;
+  width: 375px;
+  min-height: 3461px;
+  background-image: url("image/portfolio-background-shapes-mobile.png");
+  background-repeat: no-repeat;
+  background-size: 375px 2617.21px;
+}
+
+.uppergrid {
+  display: grid;
+  grid-template-columns: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
