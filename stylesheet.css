@@ -150,9 +150,10 @@ a {
 }
 
 .workedOn {
-  display: inline-block;
+  display: grid;
+  grid-template-columns: auto;
   width: 375px;
-  min-height: 3461px;
+  min-height: 2600px;
   background-image: url("image/portfolio-background-shapes-mobile.png");
   background-repeat: no-repeat;
   background-size: 375px 2617.21px;
@@ -199,14 +200,14 @@ a {
   margin: auto;
 }
 
-.project-grid {
-  display: grid;
-  grid-template-columns: 329px;
-  margin-left: 23px;
-  margin-bottom: 40px;
+.project-flex {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  padding-left: 23px;
 }
 
-.grid-item {
+.flex-item {
   color: white;
   align-items: center;
 }
@@ -216,17 +217,20 @@ a {
   font-size: 25px;
 }
 
-.navlang {
-  display: grid;
-  grid-template-columns: 80px 3px 80px 3px 80px 3px 80px;
-  margin-top: 20px;
+.navlang-flex {
+  display: flex;
+  width: 350px;
 }
 
-.subgrid-item {
-  display: inline-block;
+.subflex-item {
   height: 30px;
   text-align: center;
   line-height: 30px;
+}
+
+.artag {
+  display: inline-block;
+  width: 80px;
 }
 
 .seeproject {
@@ -238,4 +242,11 @@ a {
   margin-top: 20px;
   line-height: 48px;
   text-align: center;
+}
+
+.seep {
+  display: flex;
+  justify-content: left;
+  height: 48px;
+  padding-bottom: 50px;
 }
