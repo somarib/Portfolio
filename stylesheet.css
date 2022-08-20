@@ -198,3 +198,12 @@ a {
   width: 327px;
   margin: auto;
 }
+
+.project-grid {
+  display: grid;
+  grid-template-columns: 329px;
+  margin-left: 23px;
+  margin-bottom: 40px;
+}
+
+
