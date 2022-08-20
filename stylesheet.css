@@ -209,14 +209,14 @@ a {
 .grid-item {
   color: white;
   align-items: center;
- }
- 
- .holdtext {
-   color: #dcdce8;
-   font-size: 25px;
- }
+}
 
- .navlang {
+.holdtext {
+  color: #dcdce8;
+  font-size: 25px;
+}
+
+.navlang {
   display: grid;
   grid-template-columns: 80px 3px 80px 3px 80px 3px 80px;
   margin-top: 20px;
@@ -239,6 +239,3 @@ a {
   line-height: 48px;
   text-align: center;
 }
-
-
-
