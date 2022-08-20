@@ -206,4 +206,14 @@ a {
   margin-bottom: 40px;
 }
 
+.grid-item {
+  color: white;
+  align-items: center;
+ }
+ 
+ .holdtext {
+   color: #dcdce8;
+   font-size: 25px;
+ }
+
 
