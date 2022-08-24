@@ -10,12 +10,17 @@ body {
   background-color: #191765;
   width: 375px;
   min-height: 100vh;
+  padding-bottom: 100px;
+  color: white;
 }
 
 .bgimage {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
   width: 375px;
-  min-height: 563px;
+  min-height: 650px;
   background-image: url("image/Topcircles.png");
   background-repeat: no-repeat;
   background-size: 375px 563px;
@@ -127,10 +132,12 @@ body {
 }
 
 .social {
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
   width: 200px;
-  height: 80px;
-  padding-top: 20px;
+  min-height: 50px;
 }
 
 ul {
@@ -162,7 +169,7 @@ a {
 .uppergrid {
   display: grid;
   grid-template-columns: auto;
-  margin-top: 50px;
+  margin-top: 10px;
   margin-bottom: 50px;
 }
 
@@ -171,6 +178,7 @@ a {
   justify-content: center;
   width: 375px;
   height: 100px;
+  margin-bottom: 100px;
 }
 
 .ul-work {
@@ -250,3 +258,4 @@ a {
   height: 48px;
   padding-bottom: 50px;
 }
+
