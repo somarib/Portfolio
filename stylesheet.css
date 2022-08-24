@@ -267,7 +267,6 @@ a {
   align-items: center;
 }
 
-
 .contact {
   color: #9390ff;
   font-size: 32px;
@@ -307,12 +306,6 @@ a {
   background-color: #7d73fc;
 }
 
-.myform button {
-  width: 100px;
-  height: 50px;
-  background-color: #7d73fc;
-}
-
 .foota .social {
   padding-bottom: 1px;
 }
@@ -322,5 +315,3 @@ a {
   margin-top: 60px;
   margin-bottom: 25px;
 }
-
-
