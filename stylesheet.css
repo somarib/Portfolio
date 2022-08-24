@@ -280,3 +280,10 @@ a {
   margin-bottom: 15px;
 }
 
+.myform {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
