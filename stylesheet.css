@@ -10,12 +10,17 @@ body {
   background-color: #191765;
   width: 375px;
   min-height: 100vh;
+  padding-bottom: 100px;
+  color: white;
 }
 
 .bgimage {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
   width: 375px;
-  min-height: 563px;
+  min-height: 650px;
   background-image: url("image/Topcircles.png");
   background-repeat: no-repeat;
   background-size: 375px 563px;
@@ -127,10 +132,12 @@ body {
 }
 
 .social {
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
   width: 200px;
-  height: 80px;
-  padding-top: 20px;
+  min-height: 50px;
 }
 
 ul {
@@ -162,7 +169,7 @@ a {
 .uppergrid {
   display: grid;
   grid-template-columns: auto;
-  margin-top: 50px;
+  margin-top: 10px;
   margin-bottom: 50px;
 }
 
@@ -171,6 +178,7 @@ a {
   justify-content: center;
   width: 375px;
   height: 100px;
+  margin-bottom: 100px;
 }
 
 .ul-work {
@@ -249,4 +257,61 @@ a {
   justify-content: left;
   height: 48px;
   padding-bottom: 50px;
+}
+
+.contact-section,
+.foota {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.contact {
+  color: #9390ff;
+  font-size: 32px;
+  margin-top: 30px;
+}
+
+.text-invite {
+  width: 327px;
+  height: 105px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.myform {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.myform input {
+  width: 327px;
+  height: 48px;
+  margin-bottom: 15px;
+}
+
+.myform textarea {
+  width: 327px;
+  height: 148px;
+  margin-bottom: 15px;
+}
+
+.myform button {
+  width: 100px;
+  height: 50px;
+  background-color: #7d73fc;
+}
+
+.foota .social {
+  padding-bottom: 1px;
+}
+
+.contact-image {
+  display: inline-block;
+  margin-top: 60px;
+  margin-bottom: 25px;
 }
