@@ -460,4 +460,22 @@ a {
     margin: auto;
   }
 
+  .work-list-article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 2250px;
+    background-image: url("image/bg-contact-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 2280px;
+  }
+
+  .my-work {
+    width: 100%;
+    margin: auto;
+    font-size: 40px;
+    color: #9490ff;
+    padding-bottom: 20px;
+  }
+
 }
