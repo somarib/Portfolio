@@ -1,7 +1,7 @@
 body {
   background-color: #e5e5e5;
   background-image: url("image/Topcircles.png");
-  font-family: 'Roboto', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,;
+  font-family: 'Roboto', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: auto;
 }
 
@@ -10,7 +10,7 @@ body {
   background-color: #191765;
   width: 375px;
   min-height: 100vh;
-  padding-bottom: 100px;
+  padding-bottom: 10px;
   color: white;
 }
 
@@ -86,8 +86,9 @@ body {
 .myname {
   margin: auto;
   width: 327px;
-  height: 55px;
-  font-size: 30px;
+  height: auto;
+  font-size: 48px;
+  font-weight: 700;
   color: #7d73fc;
   text-align: center;
   padding-top: 50px;
@@ -97,7 +98,8 @@ body {
   margin: auto;
   width: 327px;
   height: 87px;
-  font-size: 25px;
+  font-size: 32px;
+  font-weight: 500;
   color: white;
   text-align: center;
 }
@@ -106,8 +108,9 @@ body {
   margin: auto;
   width: 327px;
   height: 170px;
-  font-size: 22px;
-  color: white;
+  font-size: 20px;
+  font-weight: 400px;
+  color: c8c8d4;
   text-align: center;
 }
 
@@ -124,6 +127,12 @@ body {
 
 .vector4 {
   margin-bottom: 30px;
+}
+
+hr {
+  width: 327px;
+  border: 1px solid #646369;
+  margin: auto;
 }
 
 .ul-work {
@@ -300,7 +309,8 @@ a {
   margin-bottom: 15px;
 }
 
-.myform button {
+.myform .mmb {
+  display: block;
   width: 100px;
   height: 50px;
   background-color: #7d73fc;
@@ -317,6 +327,51 @@ a {
   margin-bottom: 25px;
 }
 
+.proficiency {
+  display: flex;
+  flex-wrap: wrap;
+  width: 304px;
+  min-height: 462px;
+  margin: auto;
+}
+
+.frmwk {
+  color: #f5f5ff;
+  font-size: 15px;
+}
+
+.pf-items {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 150px;
+}
+
+.frwk-heada {
+  color: #9490ff;
+  font-size: 12px;
+}
+
+.dsk {
+  display: none;
+}
+
+.ppf-head {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: auto;
+  width: 100px;
+}
+
+.ppf-head li {
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: #f5f5ff;
+}
+
 @media only screen and (min-width: 768px) {
   body {
     background-color: #e5e5e5;
@@ -330,7 +385,7 @@ a {
     background-color: #191765;
     width: 100%;
     min-height: 100vh;
-    padding-bottom: 100px;
+    padding-bottom: 5px;
     color: white;
   }
 
@@ -403,23 +458,45 @@ a {
     margin-bottom: 200px;
   }
 
+  .wl-inner-cont {
+    width: 80%;
+    margin: auto;
+  }
+
+  .inner-section {
+    width: 100%;
+    margin: auto;
+  }
+
   .myname {
     margin: auto;
-    width: 80%;
-    height: 55px;
-    font-size: 30px;
-    color: #7d73fc;
+    width: 100%;
+    font-size: 90px;
+    font-weight: 700;
+    color: #9391ff;
     text-align: center;
-    padding-top: 50px;
+    height: auto;
   }
 
   .jobtitle {
     margin: auto;
-    width: 80%;
+    width: 100%;
     height: 87px;
-    font-size: 25px;
-    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    color: #dfe1e6;
     text-align: center;
+  }
+
+  .abilities {
+    margin: auto;
+    width: 43%;
+    height: 170px;
+    font-size: 20px;
+    font-weight: 400px;
+    color: #b3bac5;
+    text-align: center;
+    margin-top: 10px;
   }
 
   .social {
@@ -453,11 +530,6 @@ a {
 
   .heed-menu {
     width: 100%;
-  }
-
-  .wl-inner-cont {
-    width: 80%;
-    margin: auto;
   }
 
   .work-list-article {
@@ -521,7 +593,7 @@ a {
 
   .holdtext {
     width: 100%;
-    color: #dcdce8;
+    color: #dfe1e6;
     font-size: 20px;
   }
 
@@ -550,6 +622,8 @@ a {
 
   .hh2 {
     width: 327px;
+    font-size: 30px;
+    font-weight: 500;
     text-align: left;
   }
 
@@ -631,6 +705,7 @@ a {
     width: 60%;
     height: 105px;
     font-size: 20px;
+    color: #ebebff;
     text-align: center;
     margin: auto;
   }
@@ -655,16 +730,27 @@ a {
     margin-bottom: 15px;
   }
 
-  .myform button {
+  .dsk {
+    display: none;
+  }
+
+  .myform .dsk {
+    display: block;
     width: 100px;
     height: 50px;
     background-color: #7d73fc;
+    border-style: none;
+  }
+
+  .myform .mmb {
+    display: none;
   }
 
   .foota .social {
     padding-bottom: 1px;
     width: 40%;
     justify-content: space-evenly;
+    margin-bottom: 10px;
   }
 
   .contact-image {
@@ -680,5 +766,59 @@ a {
     height: 2px;
     margin-top: 20px;
     margin-bottom: 40px;
+  }
+
+  .proficiency {
+    display: flex;
+    flex-wrap: wrap;
+    width: 43%;
+    min-height: 462px;
+    margin: auto;
+  }
+
+  .frmwk {
+    color: #f5f5ff;
+    font-size: 15px;
+  }
+
+  .pf-items {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 32.57%;
+  }
+
+  .frwk-heada {
+    color: #9390ff;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .ppf-head {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: auto;
+    width: 100px;
+  }
+
+  .ppf-head li {
+    margin-bottom: 15px;
+    font-size: 14.1935px;
+    color: #fff;
+  }
+
+  .vector4 {
+    display: block;
+    width: 43%;
+    margin: auto;
+  }
+
+  hr {
+    width: 43%;
+    border: 1px solid #646369;
+    margin: auto;
   }
 }
