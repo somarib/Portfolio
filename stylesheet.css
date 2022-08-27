@@ -402,4 +402,62 @@ a {
     margin: auto;
     margin-bottom: 200px;
   }
+
+  .myname {
+    margin: auto;
+    width: 80%;
+    height: 55px;
+    font-size: 30px;
+    color: #7d73fc;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .jobtitle {
+    margin: auto;
+    width: 80%;
+    height: 87px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 40px;
+  }
+
+  .ul-work {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 65px;
+    height: 21.4px;
+    color: #a2a3ae;
+  }
+
+  .wk-left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 65px;
+    height: 21.4px;
+    color: a2a3ae;
+  }
+
+  .heed-menu {
+    width: 100%;
+  }
+
+  .wl-inner-cont {
+    width: 80%;
+    margin: auto;
+  }
+
 }
