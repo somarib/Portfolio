@@ -623,6 +623,62 @@ a {
     margin: auto;
   }
 
+  .mble {
+    display: none;
+  }
 
+  .text-invite {
+    width: 60%;
+    height: 105px;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+  }
 
+  .myform {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+  }
+
+  .myform input {
+    width: 60%;
+    height: 48px;
+    margin-bottom: 15px;
+  }
+
+  .myform textarea {
+    width: 60%;
+    height: 148px;
+    margin-bottom: 15px;
+  }
+
+  .myform button {
+    width: 100px;
+    height: 50px;
+    background-color: #7d73fc;
+  }
+
+  .foota .social {
+    padding-bottom: 1px;
+    width: 40%;
+    justify-content: space-evenly;
+  }
+
+  .contact-image {
+    display: inline-block;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 25px;
+  }
+
+  .img-workDivider {
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
 }
