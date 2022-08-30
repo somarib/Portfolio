@@ -301,3 +301,16 @@ a {
   text-align: center;
 }
 
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.contact {
+  color: #9390ff;
+  font-size: 32px;
+  margin-top: 30px;
+}
+
