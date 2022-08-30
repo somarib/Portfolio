@@ -314,3 +314,44 @@ a {
   margin-top: 30px;
 }
 
+.text-invite {
+  width: 327px;
+  height: 105px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.myform {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.myform input {
+  width: 327px;
+  height: 48px;
+  margin-bottom: 15px;
+}
+
+.myform textarea {
+  width: 327px;
+  height: 148px;
+  margin-bottom: 15px;
+}
+
+.myform .mmb {
+  display: block;
+  width: 100px;
+  height: 50px;
+  background-color: #7d73fc;
+  border-style: none;
+}
+
+.contact-image {
+  display: inline-block;
+  margin-top: 60px;
+  margin-bottom: 25px;
+}
+
