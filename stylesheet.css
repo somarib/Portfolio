@@ -186,7 +186,7 @@ hr {
   align-items: center;
   width: 65px;
   height: 21.4px;
-  color: a2a3ae;
+  color: #a2a3ae;
 }
 
 .wk-left {
@@ -301,25 +301,35 @@ a {
   text-align: center;
 }
 
-.contact-section {
+.contact-section,
+.foota {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+  height: auto;
 }
 
 .contact {
   color: #9390ff;
   font-size: 32px;
   margin-top: 30px;
+  text-align: center;
 }
 
 .text-invite {
   width: 327px;
   height: 105px;
-  font-size: 20px;
+  font-size: 17px;
+  font-weight: 400;
+  color: f5f5ff;
+  line-height: 24px;
   text-align: center;
   margin-bottom: 15px;
+}
+
+.cc-top {
+  margin-top: 100px;
 }
 
 .myform {
@@ -353,5 +363,14 @@ a {
   display: inline-block;
   margin-top: 60px;
   margin-bottom: 25px;
+}
+
+.foota .social {
+  padding-bottom: 1px;
+  margin-bottom: 5px;
+}
+
+.foota .social ul {
+  padding-bottom: 1px;
 }
 
