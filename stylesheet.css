@@ -240,8 +240,11 @@ a {
 }
 
 .hh2 {
-  width: 327px;
+  display: inline-block;
+  width: 100%;
   text-align: left;
+  font-size: 32px;
+  font-weight: 500;
 }
 
 .my-work {
@@ -289,12 +292,15 @@ a {
 .seeproject {
   display: inline-block;
   color: #edecff;
-  width: 89px;
-  height: 48px;
+  font-size: 12px;
+  font-weight: 500;
+  width: 65px;
+  height: 24px;
   background-color: #7d73fc;
   margin-top: 20px;
-  line-height: 48px;
+  line-height: 24px;
   text-align: center;
+  padding: 12px;
 }
 
 .seeproject:active {
@@ -357,14 +363,24 @@ a {
 }
 
 .myform input {
-  width: 327px;
-  height: 48px;
+  width: 295px;
+  height: 18px;
+  color: #81818c;
+  font-size: 15px;
+  padding: 15px 16px 15px;
   margin-bottom: 15px;
 }
 
+.myform input.inp-email {
+  color: #191765;
+}
+
 .myform textarea {
-  width: 327px;
-  height: 148px;
+  width: 303px;
+  height: 124px;
+  color: #81818c;
+  font-size: 15px;
+  padding: 12px;
   margin-bottom: 15px;
 }
 
@@ -645,6 +661,7 @@ a {
 
   .my-work {
     width: 100%;
+    height: auto;
     margin: auto;
     font-size: 40px;
     color: #9490ff;
@@ -655,6 +672,7 @@ a {
   .display-project2,
   .display-project3,
   .display-project4 {
+    height: 560px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -717,44 +735,48 @@ a {
     flex-wrap: wrap;
     align-items: flex-start;
     width: 40%;
-    height: 100%;
+    height: 550px;
     margin-top: 20px;
   }
 
   .hh2 {
-    width: 327px;
-    font-size: 30px;
-    font-weight: 500;
+    display: inline-block;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 700;
     text-align: left;
   }
 
   .placeholder-div {
     width: 59%;
-    height: 448px;
+    height: 550px;
     padding-bottom: 10px;
   }
 
   .ph-image {
     width: 95%;
-    height: 450px;
+    height: 550px;
     padding-left: 10px;
     padding-right: 10px;
     display: grid;
   }
 
   .navlang-flex li {
-    width: auto;
     display: inline-block;
+    width: 100%;
   }
 
   .seeproject {
     display: inline-block;
     color: #edecff;
-    width: 89px;
-    height: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 12px 12px 12px;
+    width: 82px;
+    height: 24px;
     background-color: #7d73fc;
-    margin-top: 80px;
-    line-height: 48px;
+    margin-top: 60px;
+    line-height: 24px;
     text-align: center;
   }
 
@@ -821,21 +843,40 @@ a {
 
   .myform input {
     width: 60%;
-    height: 48px;
+    height: 18px;
+    color: #171965;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #f7f3ff;
+    border-radius: 2px;
+    padding: 15px 16px 15px;
     margin-bottom: 15px;
+  }
+
+  .myform input.inp-email {
+    background-color: white;
+    color: #6d6c70;
   }
 
   .myform textarea {
     width: 60%;
-    height: 148px;
+    height: 104px;
+    padding: 14px 16px 14px;
+    color: #6d6c70;
+    font-size: 17px;
+    font-weight: 400;
     margin-bottom: 15px;
   }
 
   .myform .dsk {
     display: block;
-    width: 100px;
-    height: 50px;
-    background-color: #7d73fc;
+    width: 160px;
+    height: 48px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px;
+    background-color: #9390ff;
     border-style: none;
     transition: width 3s, backgeround-color 4s;
   }
@@ -877,6 +918,7 @@ a {
   .myform button.dsk:hover {
     width: 120px;
     background-color: #7d73fc;
+    cursor: pointer;
     box-shadow: 1px 8px 16px;
   }
 
