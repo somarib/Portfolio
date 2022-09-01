@@ -373,3 +373,21 @@ a {
 .foota .social ul {
   padding-bottom: 1px;
 }
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: #e5e5e5;
+    background-image: url("image/Topcircles.png");
+    font-family: 'Roboto', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,;
+    margin: auto;
+  }
+
+  .outer-maincont {
+    margin: auto;
+    background-color: #191765;
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 5px;
+    color: white;
+  }
+}
