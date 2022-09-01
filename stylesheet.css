@@ -418,4 +418,22 @@ a {
     margin: auto;
     font-size: 20px;
   }
+
+  .big-menu {
+    display: flex;
+    width: 40%;
+  }
+
+  .logoo {
+    width: 85px;
+    height: 30px;
+  }
+
+  .menu-icons {
+    display: none;
+  }
+
+  .menuimg {
+    margin-right: 5px;
+  }
 }
