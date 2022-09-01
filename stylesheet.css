@@ -139,10 +139,6 @@ body {
   font-size: 12px;
 }
 
-.dsk {
-  display: none;
-}
-
 .ppf-head {
   display: flex;
   flex-direction: column;
@@ -301,6 +297,23 @@ a {
   text-align: center;
 }
 
+.seeproject:active {
+  background-color: #5e42d7;
+}
+
+.seeproject:disabled {
+  background-color: #2a2b33;
+}
+
+.seeproject:hover {
+  background-color: #7d73fc;
+  box-shadow: 1px 8px 16px;
+}
+
+.seeproject:enabled {
+  background-color: #7d73fc;
+}
+
 .contact-section,
 .foota {
   display: flex;
@@ -317,6 +330,9 @@ a {
   text-align: center;
 }
 
+.dstop {
+  display: none;
+}
 .text-invite {
   width: 327px;
   height: 105px;
@@ -351,6 +367,10 @@ a {
   margin-bottom: 15px;
 }
 
+.myform .dsk {
+  display: none;
+}
+
 .myform .mmb {
   display: block;
   width: 100px;
@@ -372,6 +392,28 @@ a {
 
 .foota .social ul {
   padding-bottom: 1px;
+}
+
+.foota a {
+  color: #ebebff;
+  font-size: 20px;
+}
+
+.mmb:active {
+  background-color: #5e42df;
+}
+
+.myform .mmb:disabled {
+  background-color: #2a2b33;
+}
+
+.myform button.mmb:hover {
+  background-color: #7d73fc;
+  box-shadow: 1px 8px 16px;
+}
+
+.myform .mmb:enabled {
+  background-color: #7d73fc;
 }
 
 @media only screen and (min-width: 768px) {
@@ -734,7 +776,7 @@ a {
   }
 
   .contact-section {
-    margin-top: 200px;
+    margin-top: 80px;
   }
 
   .cc-sect {
@@ -823,5 +865,21 @@ a {
     margin-bottom: 40px;
   }
 
+  .myform button.dsk:disabled {
+    background-color: #2a2b33;
+  }
 
+  .myform button.dsk:active {
+    background-color: #5e42d7;
+  }
+
+  .myform button.dsk:hover {
+    width: 120px;
+    background-color: #7d73fc;
+    box-shadow: 1px 8px 16px;
+  }
+
+  .myform button.dsk:enabled {
+    background-color: #7d73fc;
+  }
 }
