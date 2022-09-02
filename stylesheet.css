@@ -940,3 +940,12 @@ a {
     width:100%;
   }
 }
+.seeproject {
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.seeproject:hover {
+  width: 170px;
+  height: 65px;
+  background-color: palevioletred;
+}
+}
