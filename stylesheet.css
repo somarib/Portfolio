@@ -778,6 +778,7 @@ a {
     margin-top: 60px;
     line-height: 24px;
     text-align: center;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
   }
 
   .seep {
@@ -925,27 +926,27 @@ a {
   .myform button.dsk:enabled {
     background-color: #7d73fc;
   }
+
   .click-me {
     width: 50%;
     animation: 3s infinite alternate slidein;
   }
+
   @keyframes slidein {
-  from {
-    margin-left:100%;
-    width:300%
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
 
-  to {
-    margin-left:0%;
-    width:100%;
+  .seeproject:hover {
+    width: 170px;
+    height: 65px;
+    background-color: palevioletred;
   }
-}
-.seeproject {
-  transition: width 2s, height 2s, background-color 2s, transform 2s;
-}
-.seeproject:hover {
-  width: 170px;
-  height: 65px;
-  background-color: palevioletred;
-}
 }
