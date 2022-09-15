@@ -22,11 +22,39 @@
                   <li><a href="">Contact</a></li>
                   <li><a href=""><img class="" src="image/bg-envlope.png" alt="menu icon"></a></li>
               </ul>
-              <ul class="menu-icons"><li><a href="#"><img class="menuimg" src="image/menu.png" alt="menu icon"></a></li></ul>
+              <ul class="menu-icons"><li><a href="#" id="mbm-icon"><img class="menuimg" src="image/menu.png" alt="menu icon"></a></li></ul>
           </nav>
       </header>
       <main class="main-cont">
-          <article class="header-section">
+
+        
+        <div class="mbmenu-hide-show" id="hide-show" > 
+        <article class="header-section-mbm" id="mbm-article">
+              <div class="header-inner-cont-mbm">
+                  <section class="inner-section">
+                      <div class="cncel-cont">
+                          <div class="cncel">
+                              <a href="#" class="mbmenu-li-a"><img src="image/close-Icon.png" id="button" alt="close icon"></a>
+                          </div>
+                      </div>
+                      <div class="menu-list-cont">
+                          <div class="mblist-cont">
+                              <ul class="mbmenu-ul">
+                                  <li mbm-list-item><a href="#" class="mbmenu-li-a"><span class="li-span">Portfolio</span> <span><img src="image/arrow-right.png" alt="riht arrow"></span></a></li>
+                                  <li><a href="#head-section" class="mbmenu-li-a"><span class="li-span">About</span><span><img src="image/arrow-right.png" alt="riht arrow"></span></a></li>
+                                  <li><a href="#contact-section" class="mbmenu-li-a"><span class="li-span">Contact</span><span><img src="image/arrow-right.png" alt="riht arrow"></span></a></li>
+                              </ul>
+                          </div>
+  
+                      </div>
+                  </section>
+                 
+              </div>
+              
+          </article >
+        </div>
+
+          <article class="header-section" id="head-section">
               <div class="header-inner-cont">
                   <section class="inner-section">
                       <h1 class="myname">Somarib Emmanuel</h1>
@@ -223,7 +251,7 @@
   
           </article>
 
-          <article class="contact-section">
+          <article class="contact-section" id="contact-section">
             <section class="cc-sect cc-top">
               <p class="contact mble">CONTACT US</p>
               <p class="contact dstop">Let's chat!</p>
@@ -265,6 +293,6 @@
       
     </div>
   
-    
+    <script type="text/javascript" src="menu.js"></script> 
   </body>
 </html>
