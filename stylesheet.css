@@ -510,12 +510,10 @@ a {
 
 .mbmenu-hide-show {
   display: none;
-  /* position: fixed; */
   top: 0.001px;
   height: 100vh;
   width: 100%;
 }
-
 
 @media only screen and (min-width: 768px) {
   body {
